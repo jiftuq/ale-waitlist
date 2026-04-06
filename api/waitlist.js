@@ -26,8 +26,8 @@ export default async function handler(req, res) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      from: "ALE <ale@incite.live>",
-      to: email,
+      from: "ALE <onboarding@resend.dev>",
+      reply_to: "cizac2000@gmail.com",
       subject: "You're on the ALE waitlist",
       html: `<p>You're in. We'll notify you when early access opens.</p><p>You signed up as: <strong>${role}</strong></p><p>— ALE team</p>`,
     }),
